@@ -48,8 +48,8 @@ header {
 }
 
 .nav-toggle-label span,
-.nav-toggle-label::before,
-.nav-toggle-label::after {
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
 	display: block;
 	background: #fff;
 	height: 2px;
@@ -58,17 +58,17 @@ header {
 	position: relative;
 }
 
-.nav-toggle-label::before,
-.nav-toggle-label::after {
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
 	content: "";
 	position: absolute;
 }
 
-.nav-toggle-label::before {
+.nav-toggle-label span::before {
 	bottom: 7px;
 }
 
-.nav-toggle-label::after {
+.nav-toggle-label span::after {
 	top: 7px;
 }
 
