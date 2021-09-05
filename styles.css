@@ -132,7 +132,15 @@ nav a:hover {
 	}
 
 	nav {
+		all: unset;
 		grid-column: 3 / 4;
+		display: flex;
+		
+	}
+
+	nav ul {
+		display: flex;
+		justify-content: flex-end;
 	}
 
 	nav a {
