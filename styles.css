@@ -23,6 +23,10 @@ body {
 	place-items: center;
 }
 
+.content h2 {
+	color: #fff;
+}
+
 /* Navigation styles */
 
 header {
