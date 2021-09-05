@@ -58,6 +58,20 @@ header {
 	position: relative;
 }
 
+.nav-toggle-label::before,
+.nav-toggle-label::after {
+	content: "";
+	position: absolute;
+}
+
+.nav-toggle-label::before {
+	bottom: 7px;
+}
+
+.nav-toggle-label::after {
+	top: 7px;
+}
+
 nav {
 	position: absolute;
 	text-align: left;
