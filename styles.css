@@ -64,3 +64,7 @@ nav a {
 nav a:hover {
 	color: #000;
 }
+
+.nav-toggle:checked ~ nav {
+	display: block;
+}
